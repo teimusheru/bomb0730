@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="416dp"
+            android:layout_height="357dp"
+            android:layout_marginBottom="34dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:srcCompat="@drawable/asahaka2"
+            tools:layout_editor_absoluteX="-2dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="477dp"
+            android:layout_height="6530dp"
+            android:layout_marginTop="20dp"
+            android:background="#7C9F53"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:layout_editor_absoluteX="-34dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4904dp"
+            android:text="お問い合わせ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.447"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="378dp"
+            android:layout_height="1321dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FBF9F9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="378dp"
+            android:layout_height="1321dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="#FBF9F9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="410dp"
+            android:layout_height="1180dp"
+            android:layout_marginTop="160dp"
+            android:background="#F4F0F0"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:layout_editor_absoluteX="15dp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="395dp"
+            android:layout_height="587dp"
+            android:layout_marginStart="106dp"
+            android:layout_marginTop="4120dp"
+            android:text="大学3年生の時に祖母が亡くなりました。その時に強く違和感がありました。 \n それは葬式なのについてまったく準備していないことでありました。\n  やはり残された遺族の方々は、目の前の現実を受け止めたくないという事実があると思ってます。\n そのような方を少しでもサポートしたい。それは、葬式に関することに加えて、\n やはりメンタル的な部分でも少しでも助けになりたい。\n 楽になってもらいたいという強い思いからこの授業を行いと考えました。\n 大学卒業後3年間エンジニアとして代表は働いてきました。 \n 独立した後は、その経験を活かしたいと思っております。\n しかし、祖母が亡くなった時の強い想いは 今でも持っております。\n そして、この事業をすることを決意いたしました。 \n お役に立ちたい。遺族の方の助けになりたい。\n そして、お亡くなりになる方が幸せになることをサポートしたいという強い思いから行なっております。\n  人生において死というのは避けることはできません。\n  あなたはいつ死ぬか分かりません 明日死ぬかも分かりません。\n そのような時でも準備ができてない時でも、助けになりたい。自分が出来る全力を尽くしてサポートしたい。\n そのような思いからこの事業を行っております。\n どうかよろしくお願いいたします。 "
+            app:layout_constraintEnd_toEndOf="@+id/textView29"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="3800dp"
+            android:text="お問い合わせ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="235dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="4048dp"
+            android:text="わたくしたちに関して"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="101dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="928dp"
+            android:text="墓じまい"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="321dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="1004dp"
+            android:text="お墓をしまう作業をさせていただきます。後継者がいなくなる問題というのは、避けては通ることができない問題です。その中で、お墓を放置するのではなくしまうという行いも選択肢の１つだという風に考えられます。魂供養、お墓のご処分、ご遺骨の整理行わさせていただきます。また、お仏壇に関してもお必要ありましたらさせていただきます。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="345dp"
+            android:layout_height="280dp"
+            android:layout_marginTop="620dp"
+            android:text=" お墓の引っ越しをする際に避けて通れないのが、お寺の理解を得るということです。丁寧に事情を伝え、これまでの感謝の気持ちを述べることが大切です。 しかし、残念ながら中には高額な離檀料を請求をしたり、書類への署名捺印を拒んだりと悪質な妨害をするお寺もあるようです。 このような一部のお寺の悪質な行いによりお墓の引っ越しのハードルが上がってしまっているのも事実です。 お墓の引っ越しセンターでは、スッキリと感謝の気持ちがお伝えでき、気持ちよく新しいお墓への引っ越しができるように専門のスタッフが離檀交渉のサポートを致します。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.363"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="144dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="544dp"
+            android:text="離檀交渉サポート"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.103"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="122dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="56dp"
+            android:text="サービス"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="364dp"
+            android:layout_height="2504dp"
+            android:layout_marginTop="88dp"
+            android:background="#FFFBFB"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="2592dp"
+            android:text="お問い合わせ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="168dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="2676dp"
+            android:text="離檀交渉サポート"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="319dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="2852dp"
+            android:text="スッキリと感謝の気持ちがお伝えでき、気持ちよく新しいお 墓への引っ越しができるように専門のスタッフが離檀交渉のサポートを致します。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.568"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="302dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="3148dp"
+            android:text="遺骨の一時預かり (乾燥処置) 有償 ご自宅でのご遺骨の安置が困難な場合や、保管場所の状態が芳しくない (多湿な環境など )場合に、一時的に乾燥ルームにてご遺骨をお預かり致します。 ※お預かり中のご遺骨燥処置を致します。ご納骨先が決まり次第、ご納骨先にお届け致します。 ※お預かりできるご遺骨の洗浄・乾燥済のご遺骨で、骨袋の状態に限ります。骨つぼの状態でのお預かりできません。 ※埋葬許可証もしくは改葬許可証の添付されていないご遺骨のお預かりできません。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.56"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="101dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="3060dp"
+            android:text="7万円"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="101dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="3420dp"
+            android:text="10万円"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.194"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="322dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="3492dp"
+            android:text="遺骨の一時預かり (乾燥処置) 有償 ご自宅でのご遺骨の安置が困難な場合や、保管場所の状態が芳しくない (多湿な環境など )場合に、一時的に乾燥ルームにてご遺骨をお預かり致します。 ※お預かり中のご遺骨燥処置を致します。ご納骨先が決まり次第、ご納骨先にお届け致します。 ※お預かりできるご遺骨の洗浄・乾燥済のご遺骨で、骨袋の状態に限ります。骨つぼの状態でのお預かりできません。 ※埋葬許可証もしくは改葬許可証の添付されていないご遺骨のお預かりできません。海洋散骨や樹木葬、納骨スペースを確保するために、ご遺骨の粉骨(パウダー化)を承っております。 ※海洋散骨をする際に必ず粉骨が必要です。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.625"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="101dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="2776dp"
+            android:text="5万円"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="319dp"
+            android:layout_height="235dp"
+            android:layout_marginTop="2308dp"
+            android:text="今あるお墓を維持したまま、一部の遺骨のみを取り出し新しい お墓に移動するプランです。遺骨の洗浄・乾燥。ご遺骨を長く保存できるように、ご遺骨の洗浄・不純物の取り出し・殺菌・乾燥を行って保存状態を良くします。 改葬時など他のお墓へ引っ越しされる場合に是非ご利用ください。 新しい骨袋にお納めし、ご希望により骨つぼにお納めすることもできます。粉骨(パウダー化)。海洋散骨や樹木葬、納骨スペースを確保するために、ご遺骨の粉骨(パウダー化)を承っております。 ※海洋散骨をする際に必ず粉骨が必要です。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="101dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="2204dp"
+            android:text="10万円"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.175"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="321dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="1956dp"
+            android:text="今あるお墓を維持したまま、一部の遺骨のみを取り出し新しい お墓に移動するプランです。遺骨の洗浄・乾燥。ご遺骨を長く保存できるように、ご遺骨の洗浄・不純物の取り出し・殺菌・乾燥を行って保存状態を良くします。 改葬時など他のお墓へ引っ越しされる場合に是非ご利用ください。 新しい骨袋にお納めし、ご希望により骨つぼにお納めすることもできます。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="101dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="1880dp"
+            android:text="6.5万円"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="321dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="1604dp"
+            android:text="今あるお墓を維持したまま、一部の遺骨のみを取り出し新しい お墓に移動するプランです。"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.465"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="122dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="1392dp"
+            android:text="料金体系"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.463"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="101dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="1528dp"
+            android:text="お墓のお引越し　\n3.5万円"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="122dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="159dp"
+            android:text="お墓のお引っ越し"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.165"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="321dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="242dp"
+            android:text="墓じまいしたいけど、誰に相談すれば良いのかわからない、何から始めたら良いのか・・・ お墓の引っ越しセンターの墓じまいに必要な行政の手続きから 墓石の解体・処分、移設先の提案などお墓の引っ越しに関わることをトータルでサポート致します。遺骨の取り出し 役所手続きサポート 遺骨の搬送"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="188dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="68dp"
+            android:text="お問い合わせ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
